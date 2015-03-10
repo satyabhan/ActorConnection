@@ -43,7 +43,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 		cout << endl << "Enter new source (q to quit) : ";
 		cin >> source;
-		if (source != " ")
+		if (source != "q")
 		{
 			cout << "Enter new dest (q to quit) : ";
 			cin >> dest;
